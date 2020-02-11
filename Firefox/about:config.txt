@@ -1,0 +1,1 @@
+mousewheel.autodir.enabled - horizontal scroll
