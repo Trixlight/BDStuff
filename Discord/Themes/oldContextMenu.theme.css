@@ -1,0 +1,18 @@
+//META{"name":"Old Context Menu","description":"Возвращаем старый вид контекстного меню.","author":"Sin","version":"1.0"}*//
+/* Context Menu */
+.contextMenu-HLZMGh {
+  padding: 1px 3px;
+}
+
+.menu-Sp6bN1 {
+  padding: 3px;
+  margin-left: 8px;
+}
+
+.itemBase-tz5SeC {
+  min-height: 28px;
+}
+
+.itemBase-1Qj4z6 {
+  margin: 0;
+}
