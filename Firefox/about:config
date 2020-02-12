@@ -1,6 +1,0 @@
-/* Command line arguments */
--new-tab about:newtab
-
-/* about:config */
-mousewheel.autodir.enabled - horizontal scroll
-toolkit.tabbox.switchByScrolling - tabs scrolling with mouse wheel
