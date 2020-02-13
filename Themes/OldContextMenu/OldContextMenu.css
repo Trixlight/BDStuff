@@ -1,21 +1,71 @@
 /* Context Menu */
 .contextMenu-HLZMGh {
-  padding: 1px 3px;
+  padding: 3px;
 }
 
+/* Items */
+.itemBase-tz5SeC {
+  min-height: 30px;
+  margin: 0;
+  padding: 0 8px;
+}
+
+/* Group separator */
+.itemGroup-1tL0uz:not(:first-child):not(:empty) {
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+/* Sub Menu position */
+.subMenuContext-2n_9YM {
+  margin: 0 -11px !important;
+}
+
+/* Sub Menu extra space */
+.subMenuContext-2n_9YM:before {
+  left: -3px !important;
+}
+
+.subMenuContext-2n_9YM:after,
+.subMenuContext-2n_9YM:before {
+  width: 3px;
+}
+
+.subMenuContext-2n_9YM:after {
+  right: -3px !important;
+}
+
+/* Server Title & Status menu popup */
+/* Menu position */
 .menu-Sp6bN1 {
   padding: 3px;
-  margin-left: 8px;
+  width: 228px;
 }
 
-.itemBase-tz5SeC {
-  min-height: 28px;
+/* Status menu position */
+.animatorTop-2Y7x2r .menu-Sp6bN1 {
+  margin-left: -2px;
 }
 
+/* Status menu Items description */
+.helper-2c73HK {
+  margin: 0 0 0px 24px;
+  padding: 0 0 8px;
+}
+
+/* Status menu Items position */
+.statusIconText-3b4TkH {
+  min-height: 30px;
+}
+
+/* Items */
 .itemBase-1Qj4z6 {
+  min-height: 30px;
   margin: 0;
+  padding: 0 8px;
 }
 
-.subMenuContext-2n_9YM {
-  margin-left: -5px;
+/* Separator */
+.separator-2zcjq8 {
+  margin: 2px 0px;
 }
