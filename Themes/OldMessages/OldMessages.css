@@ -2,6 +2,7 @@
 /* Увеличиваем дату и время в сообщениях и разделителе,
    а также "Отредактировано" */
 .timestampCozy-1HNQR2,
+.timestamp-1E3uAL,
 .divider-JfaTT5.hasContent-1cNJDh span,
 .edited-DL9ECl,
 .unreadPill-2HyYtt {
@@ -197,6 +198,21 @@
 .welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .isHeader-2dII4U,
 .default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .isHeader-2dII4U {
   top: 32px !important;
+}
+
+.message-2qnXI6.cozyMessage-3V1Y8y.systemMessage-1I9LCe .container-3npvBV {
+  top: 12px !important;
+}
+
+/* System Messages */
+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.systemMessage-1I9LCe .container-3npvBV {
+  top: 27px !important;
+}
+
+.welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.systemMessage-1I9LCe .container-3npvBV,
+.default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.systemMessage-1I9LCe .container-3npvBV,
+.divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.systemMessage-1I9LCe .container-3npvBV {
+  top: 12px !important;
 }
 
 /* Возвращаем прежний вид */
