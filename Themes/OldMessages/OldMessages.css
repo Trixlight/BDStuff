@@ -110,9 +110,18 @@
 
 /* Embed Content */
 .container-1ov-mD {
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
-  padding-right: 30px;
+  padding: 0 30px 0 0;
+  margin: 0;
+  grid-row-gap: 0;
+}
+
+.embedWrapper-lXpS3L {
+  margin: 3px 0;
+}
+
+.reactions-12N0jA {
+  margin: 0;
+  padding: 0;
 }
 
 /* ЗАБЛОКИРОВАННЫЕ СООБЩЕНИЯ */
