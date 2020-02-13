@@ -8,6 +8,12 @@
   font-size: 0.85rem;
 }
 
+/* Аватар и Никнейм */
+.cozy-3raOZG .header-23xsNx {
+  padding-left: 68px;
+  margin-left: -68px;
+}
+
 /* Убираем уебанскую подсветку */
 .message-2qnXI6.selected-2P5D_Z,
 .mouse-mode .message-2qnXI6:hover,
@@ -36,7 +42,7 @@
 /* Отступы В ТЕКСТЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y .container-3FojY8 {
   padding: 0 !important;
-  margin: 0 13px 0 67px !important;
+  margin: 0 0 0 68px !important;
 }
 
 /* Отступы с Индикатором о непрочитанном сообщении В ТЕКСТЕ */
@@ -47,13 +53,18 @@
 /* Отступы В НАЧАЛЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
   padding: 15px 0 0 52px !important;
-  margin: 15px 13px 0 15px !important;
+  margin: 15px 0 0 16px !important;
   border-top: thin solid var(--background-modifier-accent);
+}
+
+/* Позиция разделителя */
+.divider-3_HH5L {
+  margin: 4px 0 4px 16px;
 }
 
 /* Отступы с Индикатором даты */
 .divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  margin: 0 13px 0 15px !important;
+  margin: 0 0 0 16px !important;
   border-top: thin solid transparent;
 }
 
@@ -94,13 +105,13 @@
 .welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8,
 .default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
   border-top: none;
-  margin: 0 13px 0 15px !important;
+  margin: 0 0 0 16px !important;
 }
 
 /* Embed Content */
 .container-1ov-mD {
-  padding-top: .45rem !important;
-  padding-bottom: .15rem !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
   padding-right: 30px;
 }
 
@@ -127,7 +138,7 @@
 .blockedSystemMessage-2Rk1ek {
   height: 1px;
   top: 16px;
-  margin: 0px 13px 0px 15px;
+  margin: 0px 0 0px 16px;
   background-color: #222;
   padding: 0;
 }
@@ -150,7 +161,7 @@
 /* Позиция контейнера В ТЕКСТЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y .container-3npvBV {
   top: -4px !important;
-  right: 9px !important;
+  right: 0px !important;
   padding: 0 !important;
 }
 
@@ -204,4 +215,11 @@
 /* Кнопка рядом с реакциями */
 .reactions-12N0jA .reactionBtn-3N03Zj {
   padding: 0 7px;
+}
+
+/* Форма отправки сообщений */
+.channelTextArea-rNsIhG {
+  padding-top: 15px;
+  border-top: thin solid var(--background-modifier-accent);
+  border-radius: 0;
 }
