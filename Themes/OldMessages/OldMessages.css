@@ -169,6 +169,12 @@
   top: 32px !important;
 }
 
+/* Позиция контейнера с первым сообщением НА КАНАЛЕ/СЕРВЕРЕ */
+.welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .isHeader-2dII4U,
+.default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .isHeader-2dII4U {
+  top: 32px !important;
+}
+
 /* Возвращаем прежний вид */
 .message-2qnXI6.cozyMessage-3V1Y8y .wrapper-2aW0bm {
   background-color: transparent !important;
