@@ -258,20 +258,17 @@
 
 /* TEXT FORM AREA */
 .form-2fGMdU {
-  padding-right: 0px;
-  margin-right: -2px;
-  margin-top: 5px;
   background-color: var(--channeltextarea-background);
 }
 
 .inner-MADQqc {
-  margin-right: 2px;
+  margin-right: -4px;
 }
 
 .channelTextArea-rNsIhG {
   border-radius: 0;
   background-color: var(--channeltextarea-background);
-  margin-bottom: 18px;
+  border-bottom: 1px solid var(--background-modifier-accent);
 }
 
 .scrollableContainer-2NUZem {
@@ -312,7 +309,7 @@
 }
 
 .scroller-3sQKXg:after {
-  height: 10px;
+  height: 15px;
 }
 
 /* JUMPBAR POPUP */
