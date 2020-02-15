@@ -27,6 +27,11 @@
   display: none !important;
 }
 
+/* Подсветка результата поиска */
+.backgroundFlash-24qWLN.groupStart-23k01U {
+  margin: -16px 0 0;
+}
+
 /* Возвращаем нормальную подсветку пингам */
 .message-2qnXI6.cozyMessage-3V1Y8y.mentioned-xhSam7 .container-3FojY8 .markup-2BOw-j {
   border-radius: 3px;
@@ -150,17 +155,27 @@
 }
 
 .blockedSystemMessage-2Rk1ek {
-  height: 1px;
-  top: 16px;
-  margin: 0px 0 0px 16px;
-  background-color: #222;
-  padding: 0;
+  margin: 15px 0 -10px 16px;
+  padding: 5px 0 0 51px;
+  z-index: 3;
+  border-top: thin solid var(--background-modifier-accent);
 }
 
-.blockedSystemMessage-2Rk1ek .iconContainer-3GkGRf,
-.blockedSystemMessage-2Rk1ek .content-2M3n_H,
-.groupStart-23k01U .isUnread-3Ef-o9 {
-  display: none;
+.blockedSystemMessage-2Rk1ek .iconContainer-3GkGRf {
+  left: 0;
+  right: 0;
+}
+
+.expanded-13sWhZ {
+  background-color: transparent;
+}
+
+.welcomeMessage-ULm0mo+.cozy-3raOZG.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
+.default-1mVZrv+.cozy-3raOZG.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
+.divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
+.divider-3_HH5L+.cozy-3raOZG .blockedSystemMessage-2Rk1ek {
+  border-top: none;
+  margin: 0 0 -10px 16px !important;
 }
 
 /* КНОПКИ */
@@ -247,4 +262,8 @@
   padding-top: 15px;
   border-top: thin solid var(--background-modifier-accent);
   border-radius: 0;
+}
+
+.form-2fGMdU {
+  margin-top: -15px;
 }
