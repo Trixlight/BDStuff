@@ -274,7 +274,7 @@
 }
 
 .attachButton-2WznTc {
-  padding: 8px 15px;
+  padding: 8px 20px 8px 14px;
 }
 
 .attachButtonInner-PQjIyk {
@@ -284,6 +284,10 @@
 .attachButton-2WznTc svg {
   width: 27px;
   height: 27px;
+}
+
+.webkit-HjD9Er .buttons-3JBrkn {
+  margin-right: -4px;
 }
 
 .form-2fGMdU:before {
