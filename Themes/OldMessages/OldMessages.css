@@ -48,7 +48,7 @@
 /* Отступы В ТЕКСТЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y .container-3FojY8 {
   padding: 0 !important;
-  margin: 0 0 0 68px !important;
+  margin: 0 16px 0 68px !important;
 }
 
 /* Отступы с Индикатором о непрочитанном сообщении В ТЕКСТЕ */
@@ -59,18 +59,18 @@
 /* Отступы В НАЧАЛЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
   padding: 15px 0 0 52px !important;
-  margin: 15px 0 0 16px !important;
+  margin: 15px 16px 0 16px !important;
   border-top: thin solid var(--background-modifier-accent);
 }
 
 /* Позиция разделителя */
 .divider-3_HH5L {
-  margin: 4px 0 4px 16px;
+  margin: 4px 16px 4px 16px;
 }
 
 /* Отступы с Индикатором даты */
 .divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  margin: 0 0 0 16px !important;
+  margin: 0 16px 0 16px !important;
   border-top: thin solid transparent;
 }
 
@@ -111,7 +111,7 @@
 .welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8,
 .default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
   border-top: none;
-  margin: 0 0 0 16px !important;
+  margin: 0 16px 0 16px !important;
 }
 
 /* Embed Content */
@@ -142,6 +142,7 @@
 .group-spacing-4 .groupStart-23k01U,
 .group-spacing-0 .groupStart-23k01U {
   margin-top: 0;
+  margin-right: -8px;
 }
 
 .group-spacing-24 .groupStart-23k01U .container-3FojY8,
@@ -155,7 +156,7 @@
 }
 
 .blockedSystemMessage-2Rk1ek {
-  margin: 15px 0 -10px 16px;
+  margin: 15px 16px -10px 16px;
   padding: 5px 0 0 51px;
   z-index: 3;
   border-top: thin solid var(--background-modifier-accent);
@@ -175,7 +176,7 @@
 .divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
 .divider-3_HH5L+.cozy-3raOZG .blockedSystemMessage-2Rk1ek {
   border-top: none;
-  margin: 0 0 -10px 16px !important;
+  margin: 0 16px -10px 16px !important;
 }
 
 /* КНОПКИ */
@@ -257,13 +258,74 @@
   padding: 0 7px;
 }
 
-/* Форма отправки сообщений */
+/* TEXT FORM AREA */
+.form-2fGMdU {
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: var(--channeltextarea-background);
+  margin-top: -8px !important;
+}
+
 .channelTextArea-rNsIhG {
-  padding-top: 15px;
-  border-top: thin solid var(--background-modifier-accent);
+  padding-top: 0 !important;
+  border-radius: 0;
+  background-color: var(--channeltextarea-background);
+  margin-bottom: 18px;
+  border-top: 0 !important;
+}
+
+.scrollableContainer-2NUZem {
   border-radius: 0;
 }
 
-.form-2fGMdU {
-  margin-top: -15px;
+.attachWrapper-2TRKBi {
+  border-right: 0;
+  padding-right: 6px;
+}
+
+.form-2fGMdU:before {
+  display: none;
+}
+
+/* JUMPBAR POPUP */
+.barBase-39XTcM {
+  left: 16px;
+  right: 16px;
+  padding: 0 13px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .24);
+}
+
+.newMessagesBar-mujexs {
+  top: 8px;
+}
+
+.jumpToPresentBar-9P20AM {
+  bottom: 16px;
+}
+
+/* SCROLLBARS */
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-thumb,
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track,
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track-piece {
+  visibility: hidden;
+}
+
+.scroller-2FKFPG.messages-3amgkR:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background-color: rgba(32, 34, 37, .6);
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scroller-2FKFPG::-webkit-scrollbar-track {
+  border: 2px solid transparent;
+  border-radius: 4px;
 }
