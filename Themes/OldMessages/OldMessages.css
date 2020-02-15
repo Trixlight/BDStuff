@@ -48,7 +48,7 @@
 /* Отступы В ТЕКСТЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y .container-3FojY8 {
   padding: 0 !important;
-  margin: 0 16px 0 68px !important;
+  margin: 0 8px 0 68px !important;
 }
 
 /* Отступы с Индикатором о непрочитанном сообщении В ТЕКСТЕ */
@@ -59,18 +59,18 @@
 /* Отступы В НАЧАЛЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
   padding: 15px 0 0 52px !important;
-  margin: 15px 16px 0 16px !important;
+  margin: 15px 8px 0 16px !important;
   border-top: thin solid var(--background-modifier-accent);
 }
 
 /* Позиция разделителя */
 .divider-3_HH5L {
-  margin: 4px 16px 4px 16px;
+  margin: 4px 8px 4px 16px;
 }
 
 /* Отступы с Индикатором даты */
 .divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  margin: 0 16px 0 16px !important;
+  margin: 0 8px 0 16px !important;
   border-top: thin solid transparent;
 }
 
@@ -111,7 +111,7 @@
 .welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8,
 .default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
   border-top: none;
-  margin: 0 16px 0 16px !important;
+  margin: 0 8px 0 16px !important;
 }
 
 /* Embed Content */
@@ -142,7 +142,6 @@
 .group-spacing-4 .groupStart-23k01U,
 .group-spacing-0 .groupStart-23k01U {
   margin-top: 0;
-  margin-right: -8px;
 }
 
 .group-spacing-24 .groupStart-23k01U .container-3FojY8,
@@ -156,7 +155,7 @@
 }
 
 .blockedSystemMessage-2Rk1ek {
-  margin: 15px 16px -10px 16px;
+  margin: 15px 8px -10px 16px;
   padding: 5px 0 0 51px;
   z-index: 3;
   border-top: thin solid var(--background-modifier-accent);
@@ -176,7 +175,7 @@
 .divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
 .divider-3_HH5L+.cozy-3raOZG .blockedSystemMessage-2Rk1ek {
   border-top: none;
-  margin: 0 16px -10px 16px !important;
+  margin: 0 8px -10px 16px !important;
 }
 
 /* КНОПКИ */
