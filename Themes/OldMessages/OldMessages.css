@@ -258,8 +258,8 @@
 
 /* TEXT FORM AREA */
 .form-2fGMdU {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 0;
+  padding-right: 0;
   background-color: var(--channeltextarea-background);
 }
 
@@ -273,8 +273,12 @@
   border-radius: 0;
 }
 
+.attachWrapper-2TRKBi {
+  border-right: 0;
+}
+
 .attachButton-2WznTc {
-  padding: 8px 20px 8px 14px;
+  padding: 8px 9px 8px 5px;
 }
 
 .attachButtonInner-PQjIyk {
