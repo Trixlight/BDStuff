@@ -247,7 +247,6 @@
 }
 
 .reaction-1hd86g {
-  border-radius: 2px;
   margin-right: 3px;
   margin-bottom: 3px;
 }
@@ -262,28 +261,37 @@
   padding-left: 8px;
   padding-right: 8px;
   background-color: var(--channeltextarea-background);
-  margin-top: -8px !important;
 }
 
 .channelTextArea-rNsIhG {
-  padding-top: 0 !important;
   border-radius: 0;
   background-color: var(--channeltextarea-background);
   margin-bottom: 18px;
-  border-top: 0 !important;
 }
 
 .scrollableContainer-2NUZem {
   border-radius: 0;
 }
 
-.attachWrapper-2TRKBi {
-  border-right: 0;
-  padding-right: 6px;
+.attachButton-2WznTc {
+  padding: 8px 15px;
+}
+
+.attachButtonInner-PQjIyk {
+  height: 27px;
+}
+
+.attachButton-2WznTc svg {
+  width: 27px;
+  height: 27px;
 }
 
 .form-2fGMdU:before {
   display: none;
+}
+
+.scroller-3sQKXg:after {
+  height: 20px;
 }
 
 /* JUMPBAR POPUP */
@@ -296,11 +304,11 @@
 }
 
 .newMessagesBar-mujexs {
-  top: 8px;
+  top: 5px;
 }
 
 .jumpToPresentBar-9P20AM {
-  bottom: 16px;
+  bottom: 13px;
 }
 
 /* SCROLLBARS */
