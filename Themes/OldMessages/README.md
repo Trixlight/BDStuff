@@ -1,6 +1,6 @@
 # Old Messages - [Download](https://raw.githubusercontent.com/Trixlight/BDStuff/master/Themes/OldMessages/OldMessages.theme.css)
 
-Reverts the look of Messages back to the good old style.
+Reverts the look of Messages back to the good old style.  
 (Well... not really.)
 
 ![preview](https://Trixlight.github.io/BDStuff/Themes/OldMessages/Preview.png)
