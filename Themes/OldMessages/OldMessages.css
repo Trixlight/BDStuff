@@ -190,7 +190,7 @@
 /* Позиция контейнера В ТЕКСТЕ */
 .message-2qnXI6.cozyMessage-3V1Y8y .container-3npvBV {
   top: -4px !important;
-  right: 0px !important;
+  right: 2px !important;
   padding: 0 !important;
 }
 
@@ -258,9 +258,13 @@
 
 /* TEXT FORM AREA */
 .form-2fGMdU {
-  padding-left: 0;
-  padding-right: 0;
+  padding-right: 0px;
+  margin-right: -2px;
   background-color: var(--channeltextarea-background);
+}
+
+.inner-MADQqc {
+  margin-right: 2px;
 }
 
 .channelTextArea-rNsIhG {
