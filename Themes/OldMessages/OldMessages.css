@@ -260,6 +260,7 @@
 .form-2fGMdU {
   padding-right: 0px;
   margin-right: -2px;
+  margin-top: 5px;
   background-color: var(--channeltextarea-background);
 }
 
@@ -311,7 +312,7 @@
 }
 
 .scroller-3sQKXg:after {
-  height: 25px;
+  height: 10px;
 }
 
 /* JUMPBAR POPUP */
@@ -328,7 +329,7 @@
 }
 
 .jumpToPresentBar-9P20AM {
-  bottom: 13px;
+  bottom: 0;
 }
 
 /* SCROLLBARS */
