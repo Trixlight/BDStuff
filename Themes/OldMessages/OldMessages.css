@@ -259,10 +259,7 @@
 /* TEXT FORM AREA */
 .form-2fGMdU {
   background-color: var(--channeltextarea-background);
-}
-
-.inner-MADQqc {
-  margin-right: -4px;
+  margin-top: 0;
 }
 
 .channelTextArea-rNsIhG {
@@ -273,6 +270,11 @@
 
 .scrollableContainer-2NUZem {
   border-radius: 0;
+  margin-right: -14px;
+}
+
+.inner-MADQqc {
+  margin-right: 4px;
 }
 
 .attachWrapper-2TRKBi {
