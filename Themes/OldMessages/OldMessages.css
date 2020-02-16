@@ -332,14 +332,9 @@
 }
 
 /* SCROLLBARS */
-.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-thumb,
 .scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track,
 .scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track-piece {
   visibility: hidden;
-}
-
-.scroller-2FKFPG.messages-3amgkR:hover::-webkit-scrollbar-thumb {
-  visibility: visible;
 }
 
 .scroller-2FKFPG::-webkit-scrollbar {
