@@ -314,6 +314,27 @@
   height: 15px;
 }
 
+/* Account View */
+.container-3baos1 {
+  height: 68px;
+}
+
+/* "You must be a member for at least 10 minutes..." */
+.wrapper-39oAo3 {
+  border-radius: 0;
+  background-color: var(--channeltextarea-background);
+  border-bottom: 1px solid var(--background-modifier-accent);
+  height: 12px;
+}
+
+.content-c_0cLD {
+  margin-left: 8px;
+}
+
+.countdown-1saXFt {
+  margin-right: 8px;
+}
+
 /* JUMPBAR POPUP */
 .barBase-39XTcM {
   left: 16px;
