@@ -178,12 +178,25 @@
   background-color: transparent;
 }
 
-.welcomeMessage-ULm0mo+.cozy-3raOZG.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.default-1mVZrv+.cozy-3raOZG.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.divider-3_HH5L+.cozy-3raOZG .blockedSystemMessage-2Rk1ek {
+.welcomeMessage-ULm0mo+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
+.default-1mVZrv+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
+.divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek {
   border-top: none;
   margin: 0 8px -10px 16px !important;
+}
+
+.welcomeMessage-ULm0mo+.groupStart-23k01U .isUnread-3Ef-o9,
+.default-1mVZrv+.groupStart-23k01U .isUnread-3Ef-o9 {
+  margin-top: -7px !important;
+}
+
+.welcomeMessage-ULm0mo+.groupStart-23k01U .message-2qnXI6+.isUnread-3Ef-o9,
+.default-1mVZrv+.groupStart-23k01U .message-2qnXI6+.isUnread-3Ef-o9 {
+  margin-top: 7px !important;
+}
+
+.groupStart-23k01U:not(.expanded-13sWhZ):last-child .blockedSystemMessage-2Rk1ek {
+  margin-bottom: 0 !important;
 }
 
 /* КНОПКИ */
