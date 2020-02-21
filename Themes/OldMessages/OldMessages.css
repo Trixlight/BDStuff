@@ -371,17 +371,17 @@
   visibility: hidden;
 }
 
-.scroller-2FKFPG::-webkit-scrollbar {
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-thumb {
   background-color: rgba(32, 34, 37, .6);
 }
 
-.scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scroller-2FKFPG::-webkit-scrollbar-track {
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-thumb,
+.scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track {
   border: 2px solid transparent;
   border-radius: 4px;
 }
