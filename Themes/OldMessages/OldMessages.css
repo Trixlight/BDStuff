@@ -352,7 +352,7 @@
 .barBase-39XTcM {
   left: 16px;
   right: 16px;
-  padding: 0 13px;
+  padding: 0 5px;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, .24);
 }
@@ -384,4 +384,18 @@
 .scroller-2FKFPG::-webkit-scrollbar-track {
   border: 2px solid transparent;
   border-radius: 4px;
+}
+
+/* DataViewer Plugin */
+#dv-mount {
+  background-color: var(--background-secondary-alt);
+  height: 69px;
+}
+
+#dv-main {
+  border-top: 0;
+}
+
+.membersWrap-2h-GB4 .members-1998pB {
+  height: calc(100% - 69px) !important;
 }
