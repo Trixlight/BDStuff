@@ -110,7 +110,7 @@
 /* Fix Разделителя для первого сообщения НА КАНАЛЕ/СЕРВЕРЕ */
 .welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8,
 .default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  border-top: none;
+  border-top: thin solid transparent;
   margin: 0 8px 0 16px !important;
 }
 
@@ -180,14 +180,15 @@
 
 .welcomeMessage-ULm0mo+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
 .default-1mVZrv+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek {
-  border-top: none;
+.divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
+.groupStart-23k01U .isUnread-3Ef-o9+.cozy-3raOZG .blockedSystemMessage-2Rk1ek {
+  border-top: thin solid transparent;
   margin: 0 8px -10px 16px !important;
 }
 
 .welcomeMessage-ULm0mo+.groupStart-23k01U .isUnread-3Ef-o9,
 .default-1mVZrv+.groupStart-23k01U .isUnread-3Ef-o9 {
-  margin-top: -7px !important;
+  margin-top: -8px !important;
 }
 
 .welcomeMessage-ULm0mo+.groupStart-23k01U .message-2qnXI6+.isUnread-3Ef-o9,
