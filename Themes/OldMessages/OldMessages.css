@@ -165,7 +165,7 @@
 .blockedSystemMessage-2Rk1ek {
   margin: 15px 8px -10px 16px;
   padding: 5px 0 0 51px;
-  z-index: 3;
+  z-index: 1;
   border-top: thin solid var(--background-modifier-accent);
 }
 
