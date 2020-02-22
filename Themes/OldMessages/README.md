@@ -19,5 +19,5 @@ Reverts the look of Messages back to the good old style.
 ![preview3](https://Trixlight.github.io/BDStuff/Themes/OldMessages/Preview3.png)
 * **SendButton**  
 ![preview4](https://Trixlight.github.io/BDStuff/Themes/OldMessages/Preview4.png)  
-Add this line to *OldMessages.theme.css*  
+Add this line to the end of *OldMessages.theme.css* file  
 ```@import url(https://trixlight.github.io/BDStuff/Themes/OldMessages/SendButtonSupport.css);```

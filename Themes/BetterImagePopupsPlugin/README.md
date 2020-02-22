@@ -1,3 +1,0 @@
-# BetterImagePopups Plugin - [Download](https://raw.githubusercontent.com/Trixlight/BDStuff/master/Themes/BetterImagePopupsPlugin/BetterImagePopupsPlugin.theme.css)
-
-...
