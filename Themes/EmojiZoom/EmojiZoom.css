@@ -1,0 +1,162 @@
+/* Обычная эмоция в сообшениях, статусе и в Emoji Picker */
+.emoji.jumboable,
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA,
+.infoBar-U6oBFk .infoBarEmoji-3Ab8rZ,
+.infoBar-U6oBFk .infoBarTextWrapper-2bdtbI+.iconSizeSmaller-2whVAO,
+.emojiRow-zIc7ZX .emojiImage-1hZi2F {
+  height: 3rem;
+  width: 3rem;
+  min-height: 3rem;
+}
+
+/* Маленькая эмоция в сообшениях, статусе и в реакциях */
+.emoji:not(.jumboable):not(.customStatusSoloEmoji-XOvnMc):not(.customStatusSoloEmoji-192Z_4):not(.activityEmoji-2GDGtF):not(.activityEmoji-1AR8K6):not(.emoji-1PSQtY):not(.customStatusEmoji-2NpCsS):not(.customStatusEmoji-1o3-7b):not(.emoji-MCvpgl),
+.emoji-236_Ij,
+.image-1ehFEp {
+  width: 1.8667rem;
+  height: 1.8667rem;
+  position: relative;
+  vertical-align: middle;
+  margin-top: -0.1rem;
+  padding: 0 0 2px;
+}
+
+.container-3FojY8 {
+  overflow: visible;
+}
+
+/* Выравнивание в форме отправки/редактирования сообщения */
+.markup-2BOw-j .emoji:not(.jumboable),
+.textArea-12jD-V .emoji:not(.jumboable) {
+  top: -9px !important;
+  margin: -12px 0;
+  padding: 2px 0 0px !important;
+}
+
+/* Выравнивание в пользовательском статусе */
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv:not(:last-child) {
+  margin-top: -0.5rem !important;
+  padding: 0 !important;
+}
+
+/* Выравнивание в реакции */
+.reactionInner-15NvIl {
+  padding: 0 3px !important;
+}
+
+.reactionInner-15NvIl .emoji {
+  margin: 3px 0 !important;
+  padding: 0 !important;
+}
+
+/* Выравнивание в списке реакций */
+.sidebar-1-SQro {
+  width: auto;
+}
+
+.reactors-Blmlhw {
+  width: 100%;
+}
+
+.emoji-236_Ij {
+  margin: 5px 7px 5px 0 !important;
+  padding: 0;
+}
+
+.count-1vzEyg {
+  min-width: 15px;
+  text-align: center;
+}
+
+/* ZOOM */
+/* Зум маленькой эмоции (в тексте, реакции и в статусе)  */
+.emoji:not(.jumboable):not(.customStatusSoloEmoji-XOvnMc):not(.customStatusSoloEmoji-192Z_4):not(.activityEmoji-2GDGtF):not(.activityEmoji-1AR8K6):not(.emoji-1PSQtY):not(.customStatusEmoji-2NpCsS):not(.customStatusEmoji-1o3-7b):not(.emoji-MCvpgl):hover {
+  *transform: scale(1.60699);
+  *transition: 0.5s;
+}
+
+/* Fix зума в реакции */
+.reactionInner-rRPZdY:hover .emoji {
+  *transform: scale(1.60699) translate(4px, 2px) !important;
+  *transition: 0.5s;
+}
+
+/* Fix зума в статусе */
+.customStatusEmoji-7MXCgv:not(:last-child):hover {
+  *transform: scale(1.60699) translate(0, 4px) !important;
+}
+
+/* Fix зума в списке друзей */
+.peopleListItem-2nzedh .text-37NqbO,
+.peopleListItem-2nzedh .userInfo-2zN2z8 {
+  *overflow: visible;
+}
+
+/* EMOJI PICKER */
+/* Зум стандартных эмоций в Emoji Picker */
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA>.spriteItem-2AFL7r {
+  transform: scale(2) translate(4px, 4px);
+}
+
+/* Fix эмоций в Emoji Picker */
+.emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
+  height: 50px;
+}
+
+/* Закругляем углы окна Emoji Picker */
+.emojiPicker-3m1S-j {
+  border-radius: 5px 5px;
+}
+
+/* Emoji Picker InfoBar Fix */
+.infoBarWrapper-283ttO {
+  position: absolute;
+  bottom: 44px;
+  width: 100%;
+}
+
+/* Фиксим плавающее название категории в Emoji Picker */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+  width: 95.5%;
+  display: none;
+}
+
+/* Увеличиваем высоту и ширину Emoji Picker */
+.emojiPicker-3m1S-j {
+  max-width: unset;
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7,
+.emojiPicker-3m1S-j .noSearchResultsContainer-3Dee0U {
+  min-height: 424px;
+  min-width: 470px;
+}
+
+/* Возвращаем тени */
+.emojiPicker-3m1S-j {
+  box-shadow: var(--elevation-stroke), var(--elevation-high) !important;
+}
+
+/* Фикс тупого бага в Emoji Picker */
+.scrolling-CehiO2>* {
+  pointer-events: all !important;
+}
+
+/* SETTING PAGE */
+/* SETTING */
+/* Emoji Delete button */
+.emojiRow-zIc7ZX .emojiRemove-1k6MlJ {
+  top: 20px;
+  right: 0;
+}
+
+.emojiUploader-1f0pVx .avatar-2Hubm8 {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+
+.emojiUploader-1f0pVx .emojiRowText-2j4TNM {
+  top: 11px;
+  left: 50px;
+}
