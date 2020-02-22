@@ -1,0 +1,27 @@
+/* SendButton Plugin */
+.emojiPicker-3m1S-j {
+  position: relative;
+  margin-right: -55px;
+}
+
+.send-button {
+  width: 40px !important;
+  display: flex !important;
+  height: 44px !important;
+  position: sticky !important;
+  top: 0 !important;
+  right: 8px !important;
+}
+
+.send-button img {
+  height: 30px;
+  width: 30px;
+}
+
+.emojiButton-3uL3Aw {
+  margin-right: 20px !important;
+}
+
+.channelTextAreaDisabled-8rmlrp .send-button {
+  display: none !important;
+}
