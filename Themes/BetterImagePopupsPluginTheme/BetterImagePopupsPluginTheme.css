@@ -54,11 +54,10 @@
   /* title bar fix */
 }
 
-.imageWrapper-2p5ogY+div+.bip-actions,
-.bip-actions+.bip-description,
-.bip-description+.bip-controls,
+.bip-actions,
+.bip-description,
+.bip-controls,
 .imageWrapper-2p5ogY+.downloadLink-1ywL9o,
-.downloadLink-1ywL9o+.bip-description,
 .bip-container.bip-scaling .thumbQuicksave {
   display: none;
   /* hide shit */
