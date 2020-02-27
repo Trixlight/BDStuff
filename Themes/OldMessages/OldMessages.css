@@ -1,94 +1,143 @@
-/* СООБЩЕНИЯ */
-/* Увеличиваем дату и время в сообщениях и разделителе,
-   а также "Отредактировано" */
-.timestampCozy-1HNQR2,
-.timestamp-1E3uAL,
-.divider-JfaTT5.hasContent-1cNJDh span,
-.edited-DL9ECl,
-.unreadPill-2HyYtt {
-  font-size: 0.85rem;
+/*---------------------------------------------------------------------*/
+/*----------------------------- MESSAGES ------------------------------*/
+/*---------------------------------------------------------------------*/
+/* Messages Spacing */
+.messages-3amgkR {
+  padding-left: 8px;
 }
 
-/* Аватар и Никнейм */
+.cozy-3raOZG.wrapper-2a6GCs {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* Top Border */
+.groupStart-23k01U {
+  margin-left: 8px;
+  margin-right: 8px;
+  border-top: thin solid var(--background-modifier-accent);
+}
+
+/* Remove Top Border IF */
+/* with Data/Unread*/
+.divider-JfaTT5+.groupStart-23k01U,
+.divider-JfaTT5+.groupStart-23k01U .groupStart-23k01U {
+  border-top: thin solid transparent;
+}
+
+/* with welcome/default message */
+.welcomeMessage-ULm0mo+.groupStart-23k01U,
+.default-1mVZrv+.groupStart-23k01U {
+  border-top: thin solid transparent;
+}
+
+/* Messages Spacing 24-16-8 only */
+.group-spacing-24 .groupStart-23k01U {
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.group-spacing-16 .groupStart-23k01U {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+.group-spacing-8 .groupStart-23k01U {
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+/* Messages Padding */
+.cozy-3raOZG {
+  padding-left: 51px !important;
+}
+
+.cozy-3raOZG .contents-2mQqc9 {
+  padding-left: 51px !important;
+  margin-left: -51px !important;
+}
+
+.cozy-3raOZG .messageContent-2qWWxC,
 .cozy-3raOZG .header-23xsNx {
-  padding-left: 68px;
-  margin-left: -68px;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
-/* Убираем уебанскую подсветку */
+.avatar-1BDn8e {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* backgroundFlash */
+/* Remove messages backgroundFlash on hover */
 .message-2qnXI6.selected-2P5D_Z,
 .mouse-mode .message-2qnXI6:hover,
 .message-2qnXI6.mentioned-xhSam7 {
   background-color: transparent !important;
 }
 
+/* Search & Pings backgroundFlash */
+.backgroundFlash-24qWLN.groupStart-23k01U {
+  margin: 0 !important;
+  border-top: none !important;
+}
+
+/* Scale "Date", "Edited" & Date/Unread Separators font-size */
+.cozy-3raOZG .timestamp-3ZCmNB,
+.divider-JfaTT5.hasContent-1cNJDh span,
+.edited-3sfAzf,
+.unreadPill-2HyYtt {
+  font-size: 0.85rem;
+}
+
+/* Mentions */
+/* Remove new style */
 .message-2qnXI6.groupStart-23k01U.cozyMessage-3V1Y8y.mentioned-xhSam7 .container-3FojY8:before,
 .message-2qnXI6.cozyMessage-3V1Y8y.mentioned-xhSam7:before {
   display: none !important;
 }
 
-/* Подсветка результата поиска */
-.backgroundFlash-24qWLN.groupStart-23k01U {
-  margin: -16px 0 0;
-}
-
-/* Возвращаем нормальную подсветку пингам */
-.message-2qnXI6.cozyMessage-3V1Y8y.mentioned-xhSam7 .container-3FojY8 .markup-2BOw-j {
+/* Bring back old style */
+.message-2qnXI6.cozyMessage-3V1Y8y.mentioned-xhSam7 .markup-2BOw-j {
   border-radius: 3px;
   background-color: var(--background-mentioned);
   border-left: 2px solid #faa61a;
-  padding-left: 3px
+  padding-left: 3px !important;
 }
 
-.mouse-mode .message-2qnXI6.mentioned-xhSam7 .container-3FojY8:hover .markup-2BOw-j {
+.mouse-mode .message-2qnXI6.mentioned-xhSam7:hover .markup-2BOw-j {
   background-color: var(--background-mentioned);
 }
 
-/* Возвращаем разделители сообщений */
-/* Отступы В ТЕКСТЕ */
-.message-2qnXI6.cozyMessage-3V1Y8y .container-3FojY8 {
-  padding: 0 !important;
-  margin: 0 8px 0 68px !important;
+/*---------------------------------------------------------------------*/
+/*--------------------------- SEPARATORS ------------------------------*/
+/*---------------------------------------------------------------------*/
+/* Unread Separator Spacing beforeGroup 24-16-8 only */
+.group-spacing-24 .beforeGroup-1rH1F0.isUnread-3Ef-o9,
+.group-spacing-16 .beforeGroup-1rH1F0.isUnread-3Ef-o9,
+.group-spacing-8 .beforeGroup-1rH1F0.isUnread-3Ef-o9 {
+  margin: -1px 8px 0;
 }
 
-/* Отступы с Индикатором о непрочитанном сообщении В ТЕКСТЕ */
-.isUnread-3Ef-o9+.message-2qnXI6.cozyMessage-3V1Y8y:not(.groupStart-23k01U) .container-3FojY8 {
-  padding: 15px 0 0 0 !important;
+/* Data Separator Spacing 24-16-8 only */
+.group-spacing-24 .hasContent-1cNJDh {
+  margin: 16px 8px 0;
 }
 
-/* Отступы В НАЧАЛЕ */
-.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  padding: 15px 0 0 52px !important;
-  margin: 15px 8px 0 16px !important;
-  border-top: thin solid var(--background-modifier-accent);
+.group-spacing-16 .hasContent-1cNJDh {
+  margin: 12px 8px 0;
 }
 
-/* Позиция разделителя */
-.divider-3_HH5L {
-  margin: 4px 8px 4px 16px;
+.group-spacing-8 .hasContent-1cNJDh {
+  margin: 6px 8px 0;
 }
 
-/* Отступы с Индикатором даты */
-.divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  margin: 0 8px 0 16px !important;
-  border-top: thin solid transparent;
+/* Unread Separator Spacing in Text */
+.divider-3_HH5L.isUnread-3Ef-o9 {
+  margin: 4px 8px;
 }
 
-/* Вид Разделителя с Индикатором даты */
-.hasContent-1_DUdQ {
-  margin-top: 7px !important;
-  margin-bottom: 7px !important;
-  top: 7px !important;
-}
-
-/* Вид Разделителя с Индикатором о непрочитанном сообщении */
-.isUnread-3Ef-o9 {
-  margin-top: 7px !important;
-  margin-bottom: 7px !important;
-  top: 7px !important;
-}
-
-/* Возвращаем прежний вид Индикатору о непрочитанном сообщении */
+/* Unread Separator Style */
 .unreadPill-2HyYtt {
   top: 0;
   right: 0;
@@ -101,28 +150,72 @@
   font-weight: 600;
 }
 
-/* Скрываем Индикатор о непрочитанном сообщении рядом с Индикатором даты */
-.divider-JfaTT5.hasContent-1_DUdQ.isUnread-3Ef-o9 .unreadPill-2HyYtt,
+/* Hide with Date Separator */
+.divider-JfaTT5.hasContent-1_DUdQ.isUnread-3Ef-o9 .unreadPill-2HyYtt {
+  display: none;
+}
+
+/* Hide shit */
 .unreadPillCap-3_K2q2 {
   display: none;
 }
 
-/* Fix Разделителя для первого сообщения НА КАНАЛЕ/СЕРВЕРЕ */
-.welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8,
-.default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3FojY8 {
-  border-top: thin solid transparent;
-  margin: 0 8px 0 16px !important;
+/* Welcome/Default Separators */
+.default-1mVZrv {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
-/* Первое сообщение НА КАНАЛЕ/СЕРВЕРЕ с индикатором о непрочитанном сообщении */
+/* Welcome/Default message with Unread */
 .welcomeMessage-ULm0mo+.divider-JfaTT5.isUnread-3Ef-o9,
 .default-1mVZrv+.divider-JfaTT5.isUnread-3Ef-o9 {
-  margin-top: -9px !important;
+  top: 0 !important;
 }
 
+/*---------------------------------------------------------------------*/
+/*---------------------------- BUTTONS --------------------------------*/
+/*---------------------------------------------------------------------*/
+/* Hide shit */
+.buttonContainer-DHceWr .emojiButton-jE9tXC,
+.buttonContainer-DHceWr [aria-label="More"],
+.message-2qnXI6.cozyMessage-3V1Y8y .timestampVisibleOnHover-2bQeI4,
+.buttonContainer-DHceWr .emojiSeparator-10VgEJ {
+  display: none;
+}
+
+/* Position in Text */
+.message-2qnXI6.cozyMessage-3V1Y8y .container-3npvBV {
+  top: 0 !important;
+  right: 0 !important;
+  padding: 0 !important;
+}
+
+/* Position in Header */
+.message-2qnXI6.cozyMessage-3V1Y8y .isHeader-2dII4U {
+  top: 32px !important;
+}
+
+/* Remove shit */
+.message-2qnXI6.cozyMessage-3V1Y8y .wrapper-2aW0bm {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  height: auto;
+}
+
+.message-2qnXI6.cozyMessage-3V1Y8y .button-1ZiXG9:hover {
+  background-color: transparent;
+}
+
+.message-2qnXI6.cozyMessage-3V1Y8y .button-1ZiXG9 {
+  padding: 0;
+}
+
+/*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
 /* Embed Content */
 .container-1ov-mD {
-  padding: 0 30px 0 0;
+  padding: 0;
   margin: 0;
   grid-row-gap: 0;
 }
@@ -142,128 +235,8 @@
   padding: 0;
 }
 
-/* ЗАБЛОКИРОВАННЫЕ СООБЩЕНИЯ */
-/* Скрываем заблокированные сообщения */
-.group-spacing-24 .groupStart-23k01U,
-.group-spacing-16 .groupStart-23k01U,
-.group-spacing-8 .groupStart-23k01U,
-.group-spacing-4 .groupStart-23k01U,
-.group-spacing-0 .groupStart-23k01U {
-  margin-top: 0;
-}
-
-.group-spacing-24 .groupStart-23k01U .container-3FojY8,
-.group-spacing-16 .groupStart-23k01U .container-3FojY8,
-.group-spacing-8 .groupStart-23k01U .container-3FojY8,
-.group-spacing-4 .groupStart-23k01U .container-3FojY8,
-.group-spacing-0 .groupStart-23k01U .container-3FojY8 {
-  padding: 0;
-  min-height: auto;
-  overflow: visible;
-}
-
-.blockedSystemMessage-2Rk1ek {
-  margin: 15px 8px -10px 16px;
-  padding: 5px 0 0 51px;
-  z-index: 1;
-  border-top: thin solid var(--background-modifier-accent);
-}
-
-.blockedSystemMessage-2Rk1ek .iconContainer-3GkGRf {
-  left: 0;
-  right: 0;
-}
-
-.expanded-13sWhZ {
-  background-color: transparent;
-}
-
-.welcomeMessage-ULm0mo+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.default-1mVZrv+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.divider-3_HH5L+.groupStart-23k01U .blockedSystemMessage-2Rk1ek,
-.groupStart-23k01U .isUnread-3Ef-o9+.cozy-3raOZG .blockedSystemMessage-2Rk1ek {
-  border-top: thin solid transparent;
-  margin: 0 8px -10px 16px !important;
-}
-
-.welcomeMessage-ULm0mo+.groupStart-23k01U .isUnread-3Ef-o9,
-.default-1mVZrv+.groupStart-23k01U .isUnread-3Ef-o9 {
-  margin-top: -8px !important;
-}
-
-.welcomeMessage-ULm0mo+.groupStart-23k01U .message-2qnXI6+.isUnread-3Ef-o9,
-.default-1mVZrv+.groupStart-23k01U .message-2qnXI6+.isUnread-3Ef-o9 {
-  margin-top: 7px !important;
-}
-
-.groupStart-23k01U:not(.expanded-13sWhZ):last-child .blockedSystemMessage-2Rk1ek {
-  margin-bottom: 0 !important;
-}
-
-/* КНОПКИ */
-/* Скрываем лишнее дерьмо и кнопки */
-.buttonContainer-DHceWr .emojiButton-jE9tXC,
-.buttonContainer-DHceWr [aria-label="More"],
-.message-2qnXI6.cozyMessage-3V1Y8y .timestampVisibleOnHover-2bQeI4,
-.buttonContainer-DHceWr .emojiSeparator-10VgEJ {
-  display: none;
-}
-
-/* Позиция контейнера В ТЕКСТЕ */
-.message-2qnXI6.cozyMessage-3V1Y8y .container-3npvBV {
-  top: -4px !important;
-  right: 2px !important;
-  padding: 0 !important;
-}
-
-/* Позиция контейнера В НАЧАЛЕ */
-.message-2qnXI6.cozyMessage-3V1Y8y .isHeader-2dII4U {
-  top: 47px !important;
-}
-
-/* Позиция контейнера В ТЕКСТЕ С ПИНГОМ */
-.isUnread-3Ef-o9+.message-2qnXI6.cozyMessage-3V1Y8y:not(.groupStart-23k01U) .container-3npvBV {
-  top: 11px !important;
-}
-
-/* Позиция контейнера В НАЧАЛЕ С ДАТОЙ */
-.divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .container-3npvBV {
-  top: 32px !important;
-}
-
-/* Позиция контейнера с первым сообщением НА КАНАЛЕ/СЕРВЕРЕ */
-.welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .isHeader-2dII4U,
-.default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U .isHeader-2dII4U {
-  top: 32px !important;
-}
-
-/* System Messages */
-.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.systemMessage-1I9LCe .container-3npvBV {
-  top: 27px !important;
-}
-
-.welcomeMessage-ULm0mo+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.systemMessage-1I9LCe .container-3npvBV,
-.default-1mVZrv+.message-2qnXI6.cozyMessage-3V1Y8y.groupStart-23k01U.systemMessage-1I9LCe .container-3npvBV,
-.divider-JfaTT5+.message-2qnXI6.cozyMessage-3V1Y8y.systemMessage-1I9LCe .container-3npvBV {
-  top: 12px !important;
-}
-
-/* Возвращаем прежний вид */
-.message-2qnXI6.cozyMessage-3V1Y8y .wrapper-2aW0bm {
-  background-color: transparent !important;
-  box-shadow: none !important;
-  height: auto;
-}
-
-.message-2qnXI6.cozyMessage-3V1Y8y .button-1ZiXG9:hover {
-  background-color: transparent;
-}
-
-.message-2qnXI6.cozyMessage-3V1Y8y .markupRtl-3M0hmN {
-  padding-right: 30px;
-}
-
-/* Реакции */
+/* Reactions */
+/* */
 .reactions-12N0jA {
   margin: 3px 0 0;
 }
@@ -273,12 +246,14 @@
   margin-bottom: 3px;
 }
 
-/* Кнопка рядом с реакциями */
+/* "Add reactions" button */
 .reactions-12N0jA .reactionBtn-3N03Zj {
   padding: 0 7px;
 }
 
-/* TEXT FORM AREA */
+/*---------------------------------------------------------------------*/
+/*------------------------- TEXT FORM AREA ----------------------------*/
+/*---------------------------------------------------------------------*/
 .form-2fGMdU {
   background-color: var(--channeltextarea-background);
   margin-top: 0;
@@ -336,7 +311,7 @@
   height: 15px;
 }
 
-/* Account View */
+/* Account View Area */
 .container-3baos1 {
   height: 68px;
 }
@@ -362,7 +337,9 @@
   margin-right: 6px;
 }
 
-/* JUMPBAR POPUP */
+/*---------------------------------------------------------------------*/
+/*-------------------------- JUMPBAR POPUP ----------------------------*/
+/*---------------------------------------------------------------------*/
 .barBase-39XTcM {
   left: 16px;
   right: 16px;
@@ -379,7 +356,9 @@
   bottom: 5px;
 }
 
-/* SCROLLBARS */
+/*---------------------------------------------------------------------*/
+/*---------------------------- SCROLLBARS -----------------------------*/
+/*---------------------------------------------------------------------*/
 .scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track,
 .scroller-2FKFPG.messages-3amgkR::-webkit-scrollbar-track-piece {
   visibility: hidden !important;
@@ -400,7 +379,10 @@
   border-radius: 4px !important;
 }
 
-/* DataViewer Plugin */
+/*---------------------------------------------------------------------*/
+/*----------------------------- PLUGINS -------------------------------*/
+/*---------------------------------------------------------------------*/
+/* DataViewer*/
 #dv-mount {
   background-color: var(--background-secondary-alt);
   height: 69px;
