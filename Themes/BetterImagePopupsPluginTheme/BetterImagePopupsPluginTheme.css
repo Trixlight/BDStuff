@@ -10,7 +10,6 @@
 .bip-container {
   padding-top: 22px !important;
   padding-bottom: 0 !important;
-  z-index: 10000;
 }
 
 .bip-container .imageWrapper-2p5ogY {
@@ -31,11 +30,6 @@
   display: none;
 }
 
-.layerContainer-yqaFcK {
-  z-index: 10002;
-  /* context menu fix */
-}
-
 .bip-container .scrollerWrap-2lJEkd {
   min-height: unset;
   min-width: unset;
@@ -47,11 +41,6 @@
 .embedGalleryImageElement-3Vxxsp {
   object-fit: contain;
   /* twitter images */
-}
-
-.titleBar-AC4pGV {
-  z-index: 1000;
-  /* title bar fix */
 }
 
 .bip-actions,
