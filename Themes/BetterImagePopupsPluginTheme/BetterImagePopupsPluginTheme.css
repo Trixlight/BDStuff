@@ -2,13 +2,13 @@
 .bip-container .bip-scroller {
   display: block !important;
   margin-bottom: 0 !important;
-  max-height: 100vh !important;
+  max-height: calc(100vh - 22px) !important;
   max-width: 100vw !important;
   overflow: auto;
 }
 
 .bip-container {
-  padding-top: 0 !important;
+  padding-top: 22px !important;
   padding-bottom: 0 !important;
   z-index: 10000;
 }
