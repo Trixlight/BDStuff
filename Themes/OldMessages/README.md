@@ -12,7 +12,7 @@ Reverts the look of Messages back to the good old style.
 
 ### Discord Setting
 * **Chat font scaling** - Set to 15px in the preview image above. Setting itself is working correctly.
-* **Space between message groups** - Isn't working yet, maybe I'll add it later. I'm sowwy.
+* **Space between message groups** - Only 8-16-24px.
 
 ### Plugins Support
 * **DataViewer**  
