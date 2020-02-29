@@ -134,7 +134,7 @@
 }
 
 /* Unread Separator Spacing in Text */
-.divider-3_HH5L.isUnread-3Ef-o9 {
+.divider-3_HH5L.isUnread-3Ef-o9:not(.hasContent-1cNJDh) {
   margin: 4px 8px;
 }
 
