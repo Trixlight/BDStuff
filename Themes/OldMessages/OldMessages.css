@@ -55,6 +55,7 @@
 .cozy-3raOZG .contents-2mQqc9 {
   padding-left: 51px !important;
   margin-left: -51px !important;
+  position: relative;
 }
 
 .cozy-3raOZG .messageContent-2qWWxC,
@@ -64,8 +65,8 @@
 }
 
 .avatar-1BDn8e {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
 }
 
 /* backgroundFlash */
