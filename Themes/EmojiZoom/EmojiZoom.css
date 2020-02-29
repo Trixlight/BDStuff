@@ -1,3 +1,6 @@
+/*---------------------------------------------------------------------*/
+/*------------------------------- EMOJI -------------------------------*/
+/*---------------------------------------------------------------------*/
 /* Обычная эмоция в сообшениях, статусе и в Emoji Picker */
 .emoji.jumboable,
 .customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc,
@@ -50,6 +53,12 @@
   padding: 0 !important;
 }
 
+/* Выравнивание в контекстном меню */
+.image-1ehFEp {
+  margin-top: 2px !important;
+  height: auto !important;
+}
+
 /* Выравнивание в списке реакций */
 .sidebar-1-SQro {
   width: auto;
@@ -69,7 +78,9 @@
   text-align: center;
 }
 
-/* ZOOM */
+/*---------------------------------------------------------------------*/
+/*------------------------------- ZOOM --------------------------------*/
+/*---------------------------------------------------------------------*/
 /* Зум маленькой эмоции (в тексте, реакции и в статусе)  */
 .emoji:not(.jumboable):not(.customStatusSoloEmoji-XOvnMc):not(.customStatusSoloEmoji-192Z_4):not(.activityEmoji-2GDGtF):not(.activityEmoji-1AR8K6):not(.emoji-1PSQtY):not(.customStatusEmoji-2NpCsS):not(.customStatusEmoji-1o3-7b):not(.emoji-MCvpgl):hover {
   *transform: scale(1.60699);
@@ -93,7 +104,9 @@
   *overflow: visible;
 }
 
-/* EMOJI PICKER */
+/*---------------------------------------------------------------------*/
+/*-------------------------- EMOJI PICKER  ----------------------------*/
+/*---------------------------------------------------------------------*/
 /* Зум стандартных эмоций в Emoji Picker */
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA>.spriteItem-2AFL7r {
   transform: scale(2) translate(4px, 4px);
@@ -143,8 +156,9 @@
   pointer-events: all !important;
 }
 
-/* SETTING PAGE */
-/* SETTING */
+/*---------------------------------------------------------------------*/
+/*------------------------------ SETTING ------------------------------*/
+/*---------------------------------------------------------------------*/
 /* Emoji Delete button */
 .emojiRow-zIc7ZX .emojiRemove-1k6MlJ {
   top: 20px;
