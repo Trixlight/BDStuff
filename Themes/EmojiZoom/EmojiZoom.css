@@ -26,7 +26,7 @@
 }
 
 .messageContent-2qWWxC {
-  overflow: visible;
+  overflow: visible !important;
 }
 
 /* Выравнивание в форме отправки/редактирования сообщения */
