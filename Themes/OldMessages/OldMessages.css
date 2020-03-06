@@ -384,13 +384,19 @@
 /*----------------------------- PLUGINS -------------------------------*/
 /*---------------------------------------------------------------------*/
 /* DataViewer*/
-#dv-mount {
+#dv-mount,
+.theme-light #dv-mount {
   background-color: var(--background-secondary-alt);
   height: 69px;
 }
 
 #dv-main {
   border-top: 0;
+}
+
+.theme-light #dv-main {
+  border-top: 0;
+  color: var(--text-normal);
 }
 
 .membersWrap-2h-GB4 .members-1998pB {
