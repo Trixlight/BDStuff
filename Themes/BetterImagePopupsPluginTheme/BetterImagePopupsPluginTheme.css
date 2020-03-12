@@ -51,3 +51,13 @@
   display: none;
   /* hide shit */
 }
+
+/* Delete Message Popup Fix */
+.systemPad-3UxEGl .da-anchor img {
+  max-height: unset !important;
+  max-width: 390px !important;
+}
+
+.systemPad-3UxEGl .contents-2mQqc9 {
+  text-align: left !important;
+}
