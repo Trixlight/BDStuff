@@ -123,15 +123,15 @@
 
 /* Data Separator Spacing 24-16-8 only */
 .group-spacing-24 .hasContent-1cNJDh {
-  margin: 16px 8px 0;
+  margin: 12px 8px -12px;
 }
 
 .group-spacing-16 .hasContent-1cNJDh {
-  margin: 12px 8px 0;
+  margin: 8px 8px -8px;
 }
 
 .group-spacing-8 .hasContent-1cNJDh {
-  margin: 6px 8px 0;
+  margin: 4px 8px -4px;
 }
 
 /* Unread Separator Spacing in Text */
