@@ -47,6 +47,18 @@
   padding-top: 4px;
 }
 
+.group-spacing-24 .scrollerSpacer-1Rp0XE {
+  height: 12px;
+}
+
+.group-spacing-16 .scrollerSpacer-1Rp0XE {
+  height: 8px;
+}
+
+.group-spacing-8 .scrollerSpacer-1Rp0XE {
+  height: 4px;
+}
+
 /* Messages Padding */
 .cozy-3raOZG {
   padding-left: 51px !important;
@@ -307,10 +319,6 @@
 
 .form-2fGMdU:before {
   display: none;
-}
-
-.scroller-3sQKXg:after {
-  height: 15px;
 }
 
 /* Account View Area */
