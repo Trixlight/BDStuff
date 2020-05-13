@@ -107,53 +107,21 @@
 /*---------------------------------------------------------------------*/
 /*-------------------------- EMOJI PICKER  ----------------------------*/
 /*---------------------------------------------------------------------*/
-/* Зум стандартных эмоций в Emoji Picker */
-.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA>.spriteItem-2AFL7r {
-  transform: scale(2) translate(4px, 4px);
-}
-
-/* Fix эмоций в Emoji Picker */
-.emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
-  height: 50px;
-}
-
-/* Закругляем углы окна Emoji Picker */
-.emojiPicker-3m1S-j {
-  border-radius: 5px 5px;
-}
-
 /* Emoji Picker InfoBar Fix */
-.infoBarWrapper-283ttO {
-  position: absolute;
-  bottom: 44px;
-  width: 100%;
+.emoji-AAbs8r {
+  height: 32px;
+  width: 32px;
 }
 
-/* Фиксим плавающее название категории в Emoji Picker */
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-  width: 95.5%;
-  display: none;
+/* Увеличиваем высоту Emoji Picker */
+/* In message Popup */
+.emojiPicker-3PwZFl {
+  height: 440px;
 }
 
-/* Увеличиваем высоту и ширину Emoji Picker */
-.emojiPicker-3m1S-j {
-  max-width: unset;
-}
-
-.emojiPicker-3m1S-j .scroller-3vODG7,
-.emojiPicker-3m1S-j .noSearchResultsContainer-3Dee0U {
-  min-height: 424px;
-  min-width: 470px;
-}
-
-/* Возвращаем тени */
-.emojiPicker-3m1S-j {
-  box-shadow: var(--elevation-stroke), var(--elevation-high) !important;
-}
-
-/* Фикс тупого бага в Emoji Picker */
-.scrolling-CehiO2>* {
-  pointer-events: all !important;
+/* Normal */
+.positionContainer-3unAXC {
+  height: 475px;
 }
 
 /*---------------------------------------------------------------------*/
