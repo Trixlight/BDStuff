@@ -61,7 +61,7 @@
 
 /* Messages Padding */
 .cozy-3raOZG {
-  padding-left: 51px !important;
+  padding-left: 61px !important;
 }
 
 .cozy-3raOZG .contents-2mQqc9 {
@@ -294,6 +294,10 @@
 
 .attachButton-2WznTc {
   padding: 8px 9px 8px 5px;
+}
+
+.attachButton-2dnuIu {
+  margin-left: 0;
 }
 
 .attachButtonInner-PQjIyk {
