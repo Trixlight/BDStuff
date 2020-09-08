@@ -359,7 +359,7 @@
 /*---------------------------------------------------------------------*/
 /*-------------------------- JUMPBAR POPUP ----------------------------*/
 /*---------------------------------------------------------------------*/
-.barBase-39XTcM {
+.da-barBase {
   left: 16px;
   right: 16px;
   padding: 0 5px;
@@ -367,11 +367,11 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, .24);
 }
 
-.newMessagesBar-mujexs {
+.da-newMessagesBar {
   top: 5px;
 }
 
-.jumpToPresentBar-9P20AM {
+.da-jumpToPresentBar {
   bottom: 5px;
 }
 
