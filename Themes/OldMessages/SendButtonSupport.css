@@ -1,10 +1,10 @@
 /* SendButton Plugin */
-.layer-v9HyYc .emojiPicker-3m1S-j {
+.da-layer .da-emojiPicker {
   position: relative;
   margin-right: -55px;
 }
 
-.layer-v9HyYc .translate-2dAEQ6 .emojiPicker-3m1S-j {
+.da-layer .da-translate .da-emojiPicker {
   margin-right: 0;
 }
 
@@ -17,19 +17,10 @@
   right: 8px !important;
 }
 
-.webkit-HjD9Er .buttons-3JBrkn {
-  margin-right: -6px !important;
+.da-emojiButton {
+  margin-right: 15px !important;
 }
 
-.send-button img {
-  height: 30px;
-  width: 30px;
-}
-
-.emojiButton-3uL3Aw {
-  margin-right: 20px !important;
-}
-
-.channelTextAreaDisabled-8rmlrp .send-button {
+.da-channelTextAreaDisabled .send-button {
   display: none !important;
 }
