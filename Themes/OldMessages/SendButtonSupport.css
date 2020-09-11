@@ -1,13 +1,4 @@
 /* SendButton Plugin */
-.da-layer .da-emojiPicker {
-  position: relative;
-  margin-right: -55px;
-}
-
-.da-layer .da-translate .da-emojiPicker {
-  margin-right: 0;
-}
-
 .send-button {
   width: 40px !important;
   display: flex !important;
