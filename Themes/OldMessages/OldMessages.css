@@ -26,9 +26,9 @@
 }
 
 /* with welcome/default message */
-.welcomeMessage-ULm0mo+.groupStart-23k01U,
-.default-1mVZrv+.groupStart-23k01U {
-  border-top: thin solid transparent;
+#messagesNavigationDescription+.hasDivider-20M1le {
+  border-bottom: thin solid transparent;
+  padding-bottom: 0;
 }
 
 /* Messages Spacing 24-16-8 only */
