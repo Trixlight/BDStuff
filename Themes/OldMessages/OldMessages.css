@@ -397,26 +397,3 @@
   border: 2px solid transparent !important;
   border-radius: 4px !important;
 }
-
-/*---------------------------------------------------------------------*/
-/*----------------------------- PLUGINS -------------------------------*/
-/*---------------------------------------------------------------------*/
-/* DataViewer*/
-#dv-mount,
-.theme-light #dv-mount {
-  background-color: var(--background-secondary-alt);
-  height: 69px;
-}
-
-#dv-main {
-  border-top: 0;
-}
-
-.theme-light #dv-main {
-  border-top: 0;
-  color: var(--text-normal);
-}
-
-.membersWrap-2h-GB4 .members-1998pB {
-  height: calc(100% - 69px) !important;
-}

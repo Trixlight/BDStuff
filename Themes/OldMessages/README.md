@@ -17,6 +17,9 @@ Reverts the look of Messages back to the good old style.
 ### Plugins Support
 * **DataViewer**  
 ![preview3](https://Trixlight.github.io/BDStuff/Themes/OldMessages/Preview3.png)
+Add this line to the end of *OldMessages.theme.css* file  
+```@import url(https://trixlight.github.io/BDStuff/Themes/OldMessages/DataViewerSupport.css);```
+
 * **SendButton**  
 ![preview4](https://Trixlight.github.io/BDStuff/Themes/OldMessages/Preview4.png)  
 Add this line to the end of *OldMessages.theme.css* file  
