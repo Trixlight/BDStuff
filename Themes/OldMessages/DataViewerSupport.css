@@ -1,19 +1,19 @@
 /* DataViewer*/
 #dv-mount,
 .theme-light #dv-mount {
-  background-color: var(--background-secondary-alt);
-  height: 69px;
+  background-color: var(--background-secondary-alt) !important;
+  height: 69px !important;
 }
 
 #dv-main {
-  border-top: 0;
+  border-top: 0 !important;
 }
 
 .theme-light #dv-main {
-  border-top: 0;
-  color: var(--text-normal);
+  border-top: 0 !important;
+  color: var(--text-normal) !important;
 }
 
 .membersWrap-2h-GB4 .members-1998pB {
-  height: calc(100% - 69px) !important;
+  height: calc(100% - 69px) !important !important;
 }
