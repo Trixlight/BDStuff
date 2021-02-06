@@ -1,2 +1,9 @@
-//META{"name":"Emoji Zoom","description":"Makes Emoji readable.","author":"Trixlight","version":"1.0","website":"https://github.com/Trixlight/BDStuff/tree/master/Themes/EmojiZoom","source":"https://raw.githubusercontent.com/Trixlight/BDStuff/master/Themes/EmojiZoom/EmojiZoom.theme.css"}*//
+/**
+ * @name Emoji Zoom
+ * @author Trixlight
+ * @description Makes Emoji readable.
+ * @version 1.0
+ * @website https://github.com/Trixlight/BDStuff/tree/master/Themes/EmojiZoom
+ * @source https://raw.githubusercontent.com/Trixlight/BDStuff/master/Themes/EmojiZoom/EmojiZoom.theme.css
+ */
 @import url(https://Trixlight.github.io/BDStuff/Themes/EmojiZoom/EmojiZoom.css);

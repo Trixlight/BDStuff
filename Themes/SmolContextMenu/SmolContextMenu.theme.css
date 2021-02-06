@@ -1,2 +1,9 @@
-//META{"name":"Smol Context Menu","description":"Reverts the look of the Context Menu back to the good old style.","author":"Trixlight","version":"1.0","website":"https://github.com/Trixlight/BDStuff/tree/master/Themes/SmolContextMenu","source":"https://raw.githubusercontent.com/Trixlight/BDStuff/master/Themes/SmolContextMenu/SmolContextMenu.theme.css"}*//
+/**
+ * @name Smol Context Menu
+ * @author Trixlight
+ * @description Reverts the look of the Context Menu back to the good old style.
+ * @version 1.0
+ * @website https://github.com/Trixlight/BDStuff/tree/master/Themes/SmolContextMenu
+ * @source https://raw.githubusercontent.com/Trixlight/BDStuff/master/Themes/SmolContextMenu/SmolContextMenu.theme.css
+ */
 @import url(https://Trixlight.github.io/BDStuff/Themes/SmolContextMenu/SmolContextMenu.css);
