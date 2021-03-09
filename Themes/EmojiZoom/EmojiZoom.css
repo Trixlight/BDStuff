@@ -25,7 +25,9 @@
   padding: 0 0 2px;
 }
 
-.messageContent-2qWWxC {
+.messageContent-2qWWxC,
+.repliedTextPreview-2NBljf,
+.threadMessageAccessoryPreview-1uSsue {
   overflow: visible !important;
 }
 
