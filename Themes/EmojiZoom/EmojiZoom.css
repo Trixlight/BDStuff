@@ -16,7 +16,8 @@
 /* Маленькая эмоция в сообшениях, статусе и в реакциях */
 .emoji:not(.jumboable):not(.customStatusSoloEmoji-XOvnMc):not(.customStatusSoloEmoji-192Z_4):not(.activityEmoji-2GDGtF):not(.activityEmoji-1AR8K6):not(.emoji-1PSQtY):not(.customStatusEmoji-2NpCsS):not(.customStatusEmoji-1o3-7b):not(.emoji-MCvpgl),
 .emoji-236_Ij,
-.image-1ehFEp {
+.image-1ehFEp,
+.emojiImage-1_XFkC {
   width: 1.8667rem;
   height: 1.8667rem;
   position: relative;
